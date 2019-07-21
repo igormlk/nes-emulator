@@ -1,0 +1,3 @@
+C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/CMakeFiles/nesEmulator.dir
+C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/CMakeFiles/rebuild_cache.dir

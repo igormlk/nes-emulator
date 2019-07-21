@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="nesEmulator"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nesEmulator">
+				<Option output="C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/nesEmulator.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ygor/CLionProjects/nesEmulator/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 nesEmulator"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nesEmulator/fast">
+				<Option output="C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/nesEmulator.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Ygor/CLionProjects/nesEmulator/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 nesEmulator/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Ygor/CLionProjects/nesEmulator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/APU.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/APU.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Blip_Buffer.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Blip_Buffer.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Blip_Synth.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/CPU.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/CPU.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Cartucho.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Cartucho.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Joypad.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Joypad.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Mapper.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Mapper.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Mapper0.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Mapper0.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Multi_Buffer.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Multi_Buffer.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Nes_Apu.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Nes_Apu.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Nes_Namco.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Nes_Namco.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Nes_Oscs.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Nes_Oscs.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Nes_Vrc6.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Nes_Vrc6.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Nonlinear_Buffer.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Nonlinear_Buffer.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/PPU.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/PPU.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Pulse.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Pulse.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Screen.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Screen.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Sound_Queue.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/Sound_Queue.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/apu_snapshot.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/apu_snapshot.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/blargg_common.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/blargg_source.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/config.hpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/cstdint.hpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/main.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/mos6502.cpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/mos6502.h">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/pallete.inc">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/static_assert.hpp">
+			<Option target="nesEmulator"/>
+		</Unit>
+		<Unit filename="C:/Users/Ygor/CLionProjects/nesEmulator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
